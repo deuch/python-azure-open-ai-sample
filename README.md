@@ -11,11 +11,11 @@ This repository provides very simple sample to use a notebook with Azure ML to c
     - For KeyVault "Keyvault Secrets User" as Role
 
 In the notebook, please provide those informations :
-* openai.api_base = "\<URL of Azure OpenAI instance\>"
-* openai.api_version = "\<API version for Azure Open AI\>"
-* engine = "\<Name of your model deployment\>"
-* KVUri = "\<KeyVault URL\>"
-* retrieved_secret = client.get_secret("\<Secret name in KeyVault for azure open ai key\>")
+* openai.api_base = "**\<URL of Azure OpenAI instance\>**"
+* openai.api_version = "**\<API version for Azure Open AI\>**"
+* engine = "**\<Name of your model deployment\>**"
+* KVUri = "**\<KeyVault URL\>**"
+* retrieved_secret = client.get_secret("**\<Secret name in KeyVault for azure open ai key\>**")
 
 
 
