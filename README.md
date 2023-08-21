@@ -23,7 +23,7 @@ This secret stores the api token of your Azure Open AI resource. This api key is
 
 Install dependencies in the notebook :
 
-* !pip install azure-openai
+* !pip install openai
 * !pip install azure-identity
 * !pip install azure-keyvault-secrets
 
